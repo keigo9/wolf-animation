@@ -1,0 +1,350 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 27015,
+      "max": [
+        638.9609985351563,
+        637.5,
+        298.1340026855469
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -298.1340026855469
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 324180,
+      "componentType": 5126,
+      "count": 27015,
+      "max": [
+        0.9999857544898987,
+        0.9999523758888245,
+        0.9998937845230103
+      ],
+      "min": [
+        -0.9999723434448242,
+        -0.9999944567680359,
+        -0.9987059831619263
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 27015,
+      "max": [
+        0.9997684359550476,
+        0.9999717473983765,
+        0.99988853931427,
+        1.0
+      ],
+      "min": [
+        -0.9999646544456482,
+        -0.9999732375144958,
+        -0.999582052230835,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 27015,
+      "max": [
+        0.6514890193939209,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.01800600066781044
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 216120,
+      "componentType": 5126,
+      "count": 27015,
+      "max": [
+        0.6514890193939209,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.01800600066781044
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 432240,
+      "componentType": 5126,
+      "count": 27015,
+      "max": [
+        0.6514890193939209,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.01800600066781044
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 150000,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "dramenon (https://sketchfab.com/dramenon)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/dream-wolves-character-carnifex-9a57d42dc462475f9d2ec4cb34ab4777",
+      "title": "Dream Wolves character Carnifex"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 600000,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 648360,
+      "byteOffset": 600000,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 648360,
+      "byteOffset": 1248360,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 432240,
+      "byteOffset": 1896720,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2328960,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/objMesh_Merged_Material_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/objMesh_Merged_Material_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "objMesh_Merged_Material",
+      "normalTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "objMesh_Merged_Material",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5
+          },
+          "indices": 6,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "name": "Collada visual scene group"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1751.030029296875,
+        1.0
+      ],
+      "name": "Default_Camera"
+    },
+    {
+      "name": "Default_Camera1"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "Image_Based_Light_1"
+    },
+    {
+      "name": "Image_Based_Light_1"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        0.9573236182655791,
+        -0.2555345376746335,
+        0.13503181094212957,
+        0.0,
+        0.0,
+        0.4672087612705178,
+        0.884147031546263,
+        0.0,
+        -0.289018148064961,
+        -0.8464148353186394,
+        0.4472699818248714,
+        0.0,
+        -871.9590189452082,
+        421.5920495798947,
+        318.31978743042123,
+        1.0
+      ],
+      "name": "Infinite_Light_1"
+    },
+    {
+      "name": "Infinite_Light_1"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        1.22111,
+        0.632235,
+        -0.05822,
+        0.0,
+        0.01793,
+        0.091816,
+        1.37312,
+        0.0,
+        0.634656,
+        -1.21904,
+        0.073225,
+        0.0,
+        176.199,
+        152.78,
+        -404.654,
+        1.0
+      ],
+      "name": "objMesh"
+    },
+    {
+      "mesh": 0,
+      "name": "objMesh_Merged_Material"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
