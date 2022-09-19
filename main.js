@@ -97,7 +97,7 @@ async function init() {
     let mesh = new THREE.Mesh(geometry, material);
     return mesh;
   }
-  moon = createMesh(30, "./assets/moonmap4k.jpg");
+  moon = createMesh(30, "https://rawcdn.githack.com/keigo9/wolf-animation/5246bfd6ff96d0d407dbec023dbf54dae0dc6e66/assets/moonmap4k.jpg");
   if (window.innerWidth < 765) {
     moon.scale.set(0.3, 0.3, 0.3);
   } else {
