@@ -17,7 +17,7 @@ async function init() {
   //model.scene.scale.set(0.4, 0.4, 0.4);           // モデルが大きいので縮小する
   //model.scene.position.set(-250, 0, -600);
   //model.scene.rotation.y = -0.3;
-  const model = await loader.loadAsync(`./assets/wolf/scene.gltf`); // GLTFファイルをURLで指定する
+  const model = await loader.loadAsync(`/assets/wolf/scene.gltf`); // GLTFファイルをURLで指定する
   model.scene.position.z = -3;
   model.scene.rotation.x = 0.3;
   model.scene.rotation.y = -0.8;
